@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+    font-weight: bold;
+}
+.topleft{
+    width: 50%;
+   
+}
+.topright{
+    width: 50%;
+ 
+
+}
+.section1{
+    /* max-height: 100vh; */
+    /* padding: 73px; */
+    width: 100vw;
+    margin: auto;
+    
+}
+.section1 h1{
+    font-size: 2rem;
+   color:  rgb(227,74,56);
+}
+.overflow-Xhidden{
+    overflow-x: hidden;
+}
+.logo{
+    font-size: 1.3rem;
+    padding: 5px 12px;
+}
+
+.line{
+    width: 100vw;
+    height: 1px;
+    background-color: orangered;
+}
+.dumbelimg{
+    width: 250px;
+    margin-top: 12px;
+
+}
+.topright .zimimg{
+width: 450px;
+}
+.section2 {
+  /* padding: 73px; */
+ 
+    width:100vw;
+    height: 80vh;
+    margin: auto;
+    
+  background-image: url(/zim.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity:0.8; */
+
+
+  color:white;
+  
+ 
+  
+}
+.section2 h1{
+    font-size: 2.5rem;
+   
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.boxes{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+   
+}
+/* .text{
+    justify-content: space-between;
+} */
+.box{
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    padding: 8px 0px;
+    border-radius: 8px;
+    /* justify-content: space-between; */
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+margin: 12px 2px;
+}
+/* about us design */
+#about h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    color: rgb(220, 59, 0);
+
+    
+}
+#about{
+    width: 80%;
+    margin: auto;
+    padding: 23px;
+    font-size: 18px;
+    
+    
+}
+
+.plantable{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid orangered;
+    padding: 12px 0px;
+   
+}
+    
+.section3 table td{
+    border-bottom: 2px solid orangered;
+}
+
+.section3 h1{
+    font-size: 2rem;
+    color: orangered;
+}
+.section3{
+    /* padding: 73px; */
+    width: 80vw;
+    margin: auto;
+  
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    color: (227,74,56);
+    /* background-color: orangered; */
+}

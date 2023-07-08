@@ -1,0 +1,59 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.font-bold{
+    font-weight:bolder;
+}
+.flex-col{
+    flex-direction:column;
+}
+.my-1{
+margin-top: 13px;
+margin-bottom: 13px;
+}
+.my-2{
+margin-top: 26px;
+margin-bottom: 13px;
+}
+
+.px-2{
+padding-left: 13px;
+padding-right: 13px;
+}
+.text-blue{
+    color:  rgb(230,124,10);
+}
+.Highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.btn{
+    padding: 4px 12px;
+    border: 2px solid orangered;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(227,74,56);
+    border-radius: 9px;
+}
+.text-center{
+    text-align: center;
+}
